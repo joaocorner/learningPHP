@@ -19,7 +19,7 @@
         echo "</br>A variável B vale $b";
         echo "</br>Vamos ver de novo com referência...";
         $a = 3;
-        $b = &$a; //Aqui faz toda a diferença, colocando &
+        $b = &$a; //Aqui faz toda a diferença, colocando &, ele ao invés de copiar, usa a mesma posição na memória
         $b += 1;
         echo "</br>A variável A vale $a";
         echo "</br>A variável B vale $b";
