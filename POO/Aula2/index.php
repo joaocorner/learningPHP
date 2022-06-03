@@ -14,7 +14,9 @@
   $c1 = new Caneta;
   $c1->cor = "Azul";
   $c1->ponta = 0.5;
-  $c1->tampada = true; //falso mostra vazio, verdadeiro mostra 1
+  $c1->tampada = false; //falso mostra vazio, verdadeiro mostra 1
+  $c1->tampar(); //mudando tampar e destampar, ele influencia no método seguinte
+  $c1->rabiscar();
 
   var_dump($c1); //para mostrar o estado em PHP
   print_r($c1); //outro jeito de mostrar o estado do objeto
