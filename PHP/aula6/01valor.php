@@ -14,7 +14,7 @@
         <?php
         $valor = $_GET["v"];
         echo "O valor enviado foi $valor";
-        echo "</br>A raiz é  " . number_format(sqrt($valor),2);
+        echo "</br>A raiz é  " . number_format(sqrt($valor), 2);
         $rq = sqrt($valor);
         ?>
         <br><br>
@@ -23,4 +23,3 @@
 </body>
 
 </html>
-
